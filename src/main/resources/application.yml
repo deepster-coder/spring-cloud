@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-cloud
+logging:
+  level:
+    root: info
+server:
+  servlet:
+    context-path: /spring-cloud
+app:
+  display-config:
+    welcome-message: <h1>hello %s</h1>
